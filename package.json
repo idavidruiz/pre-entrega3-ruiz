@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega3-ruiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idavidruiz/pre-entrega3-ruiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idavidruiz/pre-entrega3-ruiz/issues"
+  },
+  "homepage": "https://github.com/idavidruiz/pre-entrega3-ruiz#readme",
+  "description": ""
+}
