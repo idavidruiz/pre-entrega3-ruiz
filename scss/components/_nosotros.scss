@@ -1,0 +1,60 @@
+/*NOSOTROS*/
+
+.quienes-somos-container{
+    display: grid;
+    border: transparent;
+    padding: 300px 90px 200px 100px;
+
+    .titulo-nosotros{
+        font-size: 70px;
+        font-weight: 800;
+        color: white;  
+    }
+    
+    .texto-nosotros{
+        display: grid;
+        color: white;
+        padding: 40px 0px;
+        font-size: 15px;
+        font-style: oblique;     
+    }
+    
+        .titulo-que-hacemos{
+            display: grid;
+            width: 270px;
+            text-align: left;
+            border: transparent;
+            color: white;
+            font-size: 30px;
+            padding: 10px 10px;       
+        }
+    
+        .texto-que-hacemos{
+            display: grid;
+            color: white;
+            font-size: 15px;
+            padding-top: 20px;
+            padding-bottom: 5px;
+            font-style: oblique;
+        }
+}
+
+@media screen and (max-width: 650px) {
+    .quienes-somos-container{
+        text-align: left;
+        padding: 300px 50px 200px;
+        transition: 1s;      
+    }
+    .titulo-nosotros{
+        font-size: 50px;
+        transition: 1s;
+    }
+}
+@media screen and (min-width: 651px) {
+    .quienes-somos-container{
+        transition: 1s;
+    }
+    .titulo-nosotros{
+        transition: 1s;
+    }
+}
