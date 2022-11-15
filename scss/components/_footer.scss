@@ -1,0 +1,131 @@
+/* FOOTER */
+
+.footer-container {
+    min-height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+footer{
+    h3{
+        color: rgb(154, 179, 216);
+        margin-bottom: 15px;
+        font-style: bold;
+        font-size: 16px;
+    } 
+
+    p{
+        color: white;  
+        font-size: 13px;
+        border: transparent;
+    }
+
+    img{
+        height: 100px;
+    }
+
+    h4{  
+        display: grid;
+        margin-top: 0px;
+        font-size: 12px;
+        color: white;
+    }
+}
+
+/* comunicate */
+
+.comunicate {
+    display: grid;
+    border: transparent;
+    margin-top: 10px;
+}
+
+.medios {
+    display: flex;
+    align-items: center;
+    border: transparent;
+    margin-bottom: -10px;
+
+}
+
+.medios2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-whatsapp, .logo-gmail{
+    display: flex;
+    height: 20px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+
+/* logo footer con texto */
+
+.footer-logo {
+    border: transparent;
+    text-align: center;
+    margin-bottom: 3px;
+    
+}
+
+/* Derechos reservados */
+
+.derechos-reservados{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+    border: transparent;
+}
+
+@media screen and (max-width: 700px){
+    .comunicate, .logo-footer, .derechos-reservados{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        padding: 80px 20px 35px;
+        order: -1;
+    }
+
+    h4 {
+        font-size: 15px;
+        font-style: oblique;
+    }
+
+    .footer-container{
+        height: 450px;
+        display: grid;
+        justify-items: center;
+
+    }
+    .logo-footer{
+        display: flex;
+        height: 150px;
+        width: 150px;
+    }
+
+    .footer-logo{
+        margin: -100px 0px -100px;
+    }
+
+    .derechos-reservados{
+        margin-top: -60px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .medios, .medios2, .comunicate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
