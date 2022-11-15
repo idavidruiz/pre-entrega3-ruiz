@@ -63,23 +63,17 @@ header nav a:hover {
   padding: 300px 400px 200px 150px;
 }
 
-h1 {
-  font-size: 70px;
-  font-weight: 600;
-  display: inline;
-  color: white;
-}
-
 .pantalla-principal {
   display: grid;
   border: transparent;
   padding: 350px 0px 250px 150px;
 }
-
-.pantalla-principal a {
-  padding: 40px 40px 40px 40px;
+.pantalla-principal h1 {
+  font-size: 70px;
+  font-weight: 600;
+  display: inline;
+  color: white;
 }
-
 .pantalla-principal ul p {
   color: rgb(154, 179, 216);
   font-weight: 600;
@@ -88,8 +82,7 @@ h1 {
   margin-left: -31px;
   display: flex;
 }
-
-.servicio a {
+.pantalla-principal .servicio a {
   text-decoration: none;
   color: white;
   background-color: rgba(78, 78, 78, 0.295);
@@ -98,8 +91,7 @@ h1 {
   margin-right: 15px;
   font-size: 12px;
 }
-
-.servicio a:hover {
+.pantalla-principal .servicio a:hover {
   color: rgb(59, 92, 163);
   transition: 0.5s;
 }
@@ -119,9 +111,17 @@ h1 {
     text-align: center;
     padding: 250px 0px 10px;
   }
-  h1 {
+  .pantalla-principal h1 {
     font-size: 40px;
     transition: 1s;
+  }
+  .pantalla-principal .servicio {
+    display: flex;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
   }
   .pantalla-principal ul p {
     display: grid;
@@ -133,6 +133,7 @@ h1 {
     padding-top: 0px;
     height: 0;
     overflow: hidden;
+    margin-bottom: 0;
   }
   .video-reel iframe {
     position: absolute;
@@ -140,17 +141,6 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  .video-reel {
-    margin-bottom: 0;
-  }
-  .servicio {
-    display: flex;
-    border: transparent;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 10px;
   }
 }
 @media screen and (min-width: 701px) {
