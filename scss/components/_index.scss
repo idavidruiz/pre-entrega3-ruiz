@@ -1,0 +1,110 @@
+.pantalla-principal{
+    padding: 300px 400px 200px 150px;     
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    display: inline;
+    color: white;
+}
+
+.pantalla-principal {
+    display: grid;
+    border: transparent;
+    padding: 350px 0px 250px 150px;
+}
+
+.pantalla-principal a{
+    padding: 40px 40px 40px 40px;
+   
+}
+
+.pantalla-principal ul p{
+    color: rgb(154, 179, 216);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: -31px;
+    display: flex;
+}
+
+.servicio a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(78, 78, 78, 0.295);
+    padding: 15px 25px;
+    margin-top: -120px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    
+}
+
+.servicio a:hover{
+    color: rgb(59, 92, 163);
+    transition: 0.5s;
+}
+    
+
+.video-reel{
+    display: grid;
+    border: transparent;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 700px){
+    .pantalla-principal{
+        display: grid;
+        text-align: center;
+        padding: 250px 0px 10px;
+        
+    }
+    h1{
+        font-size: 40px;
+        transition: 1s;
+    }
+    .pantalla-principal ul p{
+        display: grid;
+        text-align: center;
+    }
+    .video-reel {
+        position: relative;
+        padding-bottom: 70%;
+        padding-top: 0px;
+        height: 0;
+        overflow: hidden;
+    }
+     
+    .video-reel iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+    }        
+    .video-reel{
+        margin-bottom: 0;
+    }
+
+    .servicio{
+        display: flex;
+        border: transparent;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+}
+
+@media screen and (min-width: 701px){
+    h1{
+        transition: 1s;
+    }
+    
+}
