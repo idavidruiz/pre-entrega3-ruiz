@@ -323,5 +323,127 @@ header nav a:hover {
     margin-top: -30px;
   }
 }
+/*SERVICIOS*/
+.titulo-servicios {
+  display: flex;
+  font-size: 50px;
+  padding-top: 120px;
+  justify-content: center;
+  color: white;
+  transition: 1s;
+}
+
+.servicios-container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.servicios-container h3 {
+  color: white;
+}
+.servicios-container .iconos {
+  display: flex;
+  border: transparent;
+  padding: 20px 250px;
+  justify-content: space-around;
+  align-items: center;
+  transition: 1s;
+}
+.servicios-container .iconos .img-1 {
+  display: grid;
+  border: transparent;
+}
+.servicios-container .iconos .img-1:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+.servicios-container .iconos .icono-text-1 {
+  display: grid;
+  border: transparent;
+  text-align: center;
+  padding-right: 17px;
+  padding-top: 20px;
+}
+.servicios-container .iconos .img-2 {
+  display: grid;
+  border: transparent;
+  justify-items: center;
+}
+.servicios-container .iconos .img-2:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+.servicios-container .iconos .icono-text-2 {
+  display: grid;
+  border: transparent;
+  text-align: center;
+  padding-top: 20px;
+}
+.servicios-container .iconos .img-3 {
+  display: grid;
+  border: transparent;
+}
+.servicios-container .iconos .img-3:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+.servicios-container .iconos .icono-text-3 {
+  display: grid;
+  border: transparent;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.texto-servicios {
+  background-color: rgba(33, 8, 56, 0.438);
+  color: white;
+  margin-top: 340px;
+  margin-bottom: 120px;
+  padding: 150px 200px 150px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 950px) {
+  .titulo-servicios {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    transition: 1s;
+  }
+  .texto-servicios {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .iconos {
+    display: grid;
+    border: transparent;
+    margin-top: -80px;
+    transition: 1s;
+  }
+  .iconos .img-1 {
+    padding-bottom: 70px;
+    transition: 1s;
+  }
+  .iconos .img-2 {
+    padding-bottom: 70px;
+    transition: 1s;
+  }
+  .iconos .img-3 {
+    padding-bottom: 70px;
+    transition: 1s;
+  }
+  .texto-servicios {
+    background-color: rgba(33, 8, 56, 0.438);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 150px 50px 150px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
