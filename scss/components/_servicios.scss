@@ -16,67 +16,67 @@
     h3{
         color: white;
     }
+}
 
-    .iconos{
-        display: flex;
+.iconos{
+    display: flex;
+    border: transparent;
+    padding: 20px 200px;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+
+    .img-1{
+        display: grid;
         border: transparent;
-        padding: 20px 250px;
-        justify-content: space-around;
-        align-items: center;
-        transition: 1s;
 
-        .img-1{
-            display: grid;
-            border: transparent;
-
-            &:hover{
-                transform: scale(1.5);
-                transition: 0.3s;
-            }
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.3s;
         }
+    }
 
-        .icono-text-1{
-            display: grid;
-            border: transparent;
-            text-align: center;
-            padding-right: 17px;
-            padding-top: 20px;
+    .icono-text-1{
+        display: grid;
+        border: transparent;
+        text-align: center;
+        padding-right: 17px;
+        padding-top: 20px;
+    }
+
+    .img-2{
+        display: grid;
+        border: transparent;
+        justify-items: center;
+
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.3s;
         }
+    }
 
-        .img-2{
-            display: grid;
-            border: transparent;
-            justify-items: center;
+    .icono-text-2{
+        display: grid;
+        border: transparent;
+        text-align: center;
+        padding-top: 20px;
+    }
 
-            &:hover{
-                transform: scale(1.5);
-                transition: 0.3s;
-            }
+    .img-3{
+        display: grid;
+        border: transparent;
+
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.3s;
         }
+    }
 
-        .icono-text-2{
-            display: grid;
-            border: transparent;
-            text-align: center;
-            padding-top: 20px;
-        }
-
-        .img-3{
-            display: grid;
-            border: transparent;
-
-            &:hover{
-                transform: scale(1.5);
-                transition: 0.3s;
-            }
-        }
-
-        .icono-text-3{
-            display: grid;
-            border: transparent;
-            text-align: center;
-            padding-top: 20px;
-        }
+    .icono-text-3{
+        display: grid;
+        border: transparent;
+        text-align: center;
+        padding-top: 20px;
     }
 }
 

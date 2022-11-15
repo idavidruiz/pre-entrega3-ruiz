@@ -450,53 +450,54 @@ header nav a:hover {
 .servicios-container h3 {
   color: white;
 }
-.servicios-container .iconos {
+
+.iconos {
   display: flex;
   border: transparent;
-  padding: 20px 250px;
+  padding: 20px 200px;
   justify-content: space-around;
   align-items: center;
   transition: 1s;
 }
-.servicios-container .iconos .img-1 {
+.iconos .img-1 {
   display: grid;
   border: transparent;
 }
-.servicios-container .iconos .img-1:hover {
+.iconos .img-1:hover {
   transform: scale(1.5);
   transition: 0.3s;
 }
-.servicios-container .iconos .icono-text-1 {
+.iconos .icono-text-1 {
   display: grid;
   border: transparent;
   text-align: center;
   padding-right: 17px;
   padding-top: 20px;
 }
-.servicios-container .iconos .img-2 {
+.iconos .img-2 {
   display: grid;
   border: transparent;
   justify-items: center;
 }
-.servicios-container .iconos .img-2:hover {
+.iconos .img-2:hover {
   transform: scale(1.5);
   transition: 0.3s;
 }
-.servicios-container .iconos .icono-text-2 {
+.iconos .icono-text-2 {
   display: grid;
   border: transparent;
   text-align: center;
   padding-top: 20px;
 }
-.servicios-container .iconos .img-3 {
+.iconos .img-3 {
   display: grid;
   border: transparent;
 }
-.servicios-container .iconos .img-3:hover {
+.iconos .img-3:hover {
   transform: scale(1.5);
   transition: 0.3s;
 }
-.servicios-container .iconos .icono-text-3 {
+.iconos .icono-text-3 {
   display: grid;
   border: transparent;
   text-align: center;
