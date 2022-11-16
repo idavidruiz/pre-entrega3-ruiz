@@ -343,7 +343,7 @@ header nav a:hover {
   position: relative;
   width: 260px;
   height: 450px;
-  background-color: rgba(0, 0, 0, 0.856);
+  background-color: rgba(0, 0, 0, 0.473);
   border-radius: 5px;
   overflow: hidden;
   transition: 0.3s;
