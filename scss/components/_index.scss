@@ -13,7 +13,7 @@
         font-size: 70px;
         font-weight: 600;
         display: inline;
-        color: white;
+        color: $color-title;
     }
         ul{
             p {
@@ -28,7 +28,7 @@
     .servicio{
         a{
             text-decoration: none;
-            color: white;
+            color: $color-text-nav;
             background-color: $color-botton-service;
             padding: 15px 25px;
             margin-top: -120px;

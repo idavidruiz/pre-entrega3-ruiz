@@ -10,12 +10,12 @@
     .titulo-nosotros{
         font-size: 70px;
         font-weight: 800;
-        color: white;  
+        color: $color-title;  
     }
     
     .texto-nosotros{
         display: grid;
-        color: white;
+        color: $color-text;
         padding: 40px 0px;
         font-size: 15px;
         font-style: oblique;     
@@ -33,7 +33,7 @@
     
         .texto-que-hacemos{
             display: grid;
-            color: white;
+            color: $color-text;
             font-size: 15px;
             padding-top: 20px;
             padding-bottom: 5px;
@@ -48,7 +48,7 @@
         transition: 1s;      
     }
     .titulo-nosotros{
-        font-size: 50px;
+        font-size: $size-title;
         transition: 1s;
     }
 }
