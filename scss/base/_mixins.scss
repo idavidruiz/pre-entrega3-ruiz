@@ -1,0 +1,20 @@
+// MIXINS
+
+@mixin botones($relleno, $bg, $color, $font, $none) {
+    padding: $relleno;
+    background-color: $bg;
+    color: $color;
+    font-size: $font;
+    text-decoration: $none;
+}
+
+/*BOTONES INDEX*/
+.servicio a{
+    @include botones(15px 25px, rgb(29, 29, 29), white, 12px, none);
+}
+
+/*BOTONES */
+
+.proyecto-boton {
+    
+}
