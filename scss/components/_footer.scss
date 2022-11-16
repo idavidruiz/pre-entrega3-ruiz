@@ -1,5 +1,7 @@
 /* FOOTER */
 
+@import '../base/variables';
+
 .footer-container {
     min-height: 150px;
     width: 100%;
@@ -11,14 +13,14 @@
 
 footer{
     h3{
-        color: rgb(154, 179, 216);
+        color: $color-p;
         margin-bottom: 15px;
         font-style: bold;
         font-size: 16px;
     } 
 
     p{
-        color: white;  
+        color: $color-text;  
         font-size: 13px;
         border: transparent;
     }
@@ -31,7 +33,7 @@ footer{
         display: grid;
         margin-top: 0px;
         font-size: 12px;
-        color: white;
+        color: $color-text;
     }
 }
 
