@@ -314,7 +314,7 @@ header nav a:hover {
   }
   .proyecto-boton a {
     padding: 15px 20px;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: -30px;
   }
 }
@@ -673,6 +673,15 @@ footer h4 {
   text-decoration: none;
 }
 
-/*BOTONES */
+/*BOTON PROYECTOS */
+.proyecto-boton a {
+  padding: 15px 20px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/*BOTONES TARJETAS GRUPO DE TRABAJO*/
 
 /*# sourceMappingURL=style.css.map */

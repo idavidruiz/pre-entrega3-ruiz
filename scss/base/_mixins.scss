@@ -13,8 +13,11 @@
     @include botones(15px 25px, rgb(29, 29, 29), white, 12px, none);
 }
 
-/*BOTONES */
+/*BOTON PROYECTOS */
 
-.proyecto-boton {
-    
+.proyecto-boton a{
+    @include botones(15px 20px, white, black, 15px, none);
 }
+
+/*BOTONES TARJETAS GRUPO DE TRABAJO*/
+
