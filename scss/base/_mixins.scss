@@ -21,3 +21,6 @@
 
 /*BOTONES TARJETAS GRUPO DE TRABAJO*/
 
+.perfil {
+    @include botones(8px 40px, white, black, 12px, none);
+}

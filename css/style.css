@@ -683,5 +683,12 @@ footer h4 {
 }
 
 /*BOTONES TARJETAS GRUPO DE TRABAJO*/
+.perfil {
+  padding: 8px 40px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
