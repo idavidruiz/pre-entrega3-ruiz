@@ -423,7 +423,8 @@ header nav a:hover {
   }
   .main {
     display: grid;
-    margin: 30px;
+    margin: 3px;
+    margin-bottom: 80px;
     align-items: center;
     justify-items: center;
     transition: 1s;
