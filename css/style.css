@@ -348,7 +348,7 @@ header nav a:hover {
   position: relative;
   width: 260px;
   height: 450px;
-  background-color: rgba(0, 0, 0, 0.644);
+  background-color: rgba(0, 0, 0, 0.856);
   border-radius: 5px;
   overflow: hidden;
   transition: 0.3s;
@@ -366,7 +366,6 @@ header nav a:hover {
   width: 150px;
   height: 150px;
   position: absolute;
-  background-color: rgb(255, 255, 255);
   padding: 0px;
   border-radius: 50%;
   bottom: -30;
@@ -388,10 +387,10 @@ header nav a:hover {
 }
 .tarjeta .descripcion h3 {
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 .tarjeta .descripcion h4 {
-  color: rgb(255, 255, 255);
+  color: white;
   margin-top: 5px;
   font-style: italic;
   font-size: 13px;

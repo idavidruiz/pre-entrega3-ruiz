@@ -7,8 +7,8 @@
         align-items: center;
         text-align: center;
         padding-top: 120px;
-        font-size: 50px;
-        color: white;
+        font-size: $size-title;
+        color: $color-title;
         transition: 1s;
     }
 }
@@ -26,13 +26,13 @@
     position: relative;
     width: 260px;
     height: 450px;
-    background-color: rgba(0, 0, 0, 0.644);
+    background-color: $color-black-opacity;
     border-radius: 5px;
     overflow: hidden;
     transition: 0.3s;
 
     &:hover{
-        box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
+        box-shadow: $size-shadow $color-shadow;
         transform: translatey(-15px);
     }
 
@@ -45,7 +45,6 @@
             width: 150px;
             height: 150px;
             position: absolute;
-            background-color: rgb(255, 255, 255);
             padding: 0px;
             border-radius: 50%;
             bottom: -30;
@@ -66,16 +65,16 @@
         height: 200px;
         padding: 80px 20px;
         border-bottom: solid 1px rgb(6, 74, 76, .18);
-        color: white;
+        color: $color-title;
         text-align: center;
 
         h3{
             font-size: 20px;
-            color: rgb(255, 255, 255);
+            color: $color-title;
         }
 
         h4{
-            color: rgb(255, 255, 255);
+            color: $color-title;
             margin-top: 5px;
             font-style: italic;
             font-size: 13px;
@@ -121,6 +120,6 @@
     }
 
     .tarjeta{
-        border: 1px solid rgba(209, 174, 255, 0.644);
+        border: 1px solid $color-shadow;
     }
 }
