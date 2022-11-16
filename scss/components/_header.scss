@@ -7,7 +7,7 @@ header {
     display: flex;
     height: 70px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: $color-black-opacity;
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px 0px 10px;
@@ -23,14 +23,14 @@ header {
         nav {
             a {
                  text-decoration: none;
-                 color: white;
-                 font-size: 15px;
+                 color: $color-text-nav;
+                 font-size: $size-navbar;
                  font-weight: 500;
                  padding-right: 30px;
                  transition: 0.5s;
 
                  &:hover {
-                      color: rgb(59, 92, 163);
+                      color: $color-hover-nav;
                 }
             }      
         }

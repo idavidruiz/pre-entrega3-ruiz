@@ -17,7 +17,7 @@
     }
         ul{
             p {
-                color: rgb(154, 179, 216);
+                color: $color-p;
                 font-weight: 600;
                 font-size: 15px;
                 margin-top: -30px;
@@ -29,13 +29,13 @@
         a{
             text-decoration: none;
             color: white;
-            background-color: rgba(78, 78, 78, 0.295);
+            background-color: $color-botton-service;
             padding: 15px 25px;
             margin-top: -120px;
             margin-right: 15px;
             font-size: 12px;
             &:hover{
-                color: rgb(59, 92, 163);
+                color: $color-hover-nav;
                 transition: 0.5s;
             }
         }
